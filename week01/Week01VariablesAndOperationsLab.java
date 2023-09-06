@@ -10,29 +10,35 @@ public class Week01VariablesAndOperationsLab {
 
 	public static void main(String[] args) {
 
-		// 1. Create a variable to hold the quantity of 
-		//		available plane seats left on a flight		
-
+		// 1. Create a variable to hold the quantity of available plane seats left on a flight		
+		//     
+		int availablePlaneSeats = 5;
 		
 		// 2. Create a variable to hold the cost of groceries at checkout
-
+                 double costOfGroceries = 23.69;
 		
 		// 3. Create a variable to hold a person's middle initial
-
+                   char middleInitial = 'j';
 	
 		// 4. Create a variable to hold true if it's hot outside 
 		//		and false if it's cold outside
+                   boolean isHotOutside = false;
 
 		
 		// 5. Create a variable to hold a customer's first name
-
-		
+                   String customerFirstName = "Sally";
+	
 		// 6. Create a variable to hold a street address
-		
+		   String streetAddress = "1073 Colt Arms St";
+
 
 		// 7. Print all variables to the console
-	
-
+		System.out.printIn(availablePlaneSeats);
+		System.out.printIn(costOfGroceries);
+		System.out.printIn(middleInitial);
+		System.out.printIn(isHotOutside);
+		System.out.printIn(customerFirstName);
+		System.out.printIn(streetAddress);
 		// 8. A customer booked 2 plane seats, 
 		//		remove 2 seats from the available seats variable
 	
